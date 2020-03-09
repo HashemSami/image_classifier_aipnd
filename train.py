@@ -9,7 +9,7 @@ def main():
 
     in_arg = get_train_input_args()
 
-    train(in_arg.dir, 
+    train(in_arg.dataset_path, 
           in_arg.arch, 
           in_arg.learning_rate, 
           in_arg.hidden_units, 

@@ -63,7 +63,7 @@ If you'd like to learn more about version control and using `git` from the comma
 
 **Now, we're ready to create our local environment!**
 
-1. Clone the repository, and navigate to the downloaded folder. This may take a minute or two to clone due to the included image data.
+1. Clone the repository, and navigate to the downloaded folder.
 ```
 git clone https://github.com/HashemSami/image_classifier_aipnd.git
 cd image_classifier_aipnd
@@ -95,6 +95,16 @@ cd image_classifier_aipnd
 	pip install torchvision
 	```
 
-4. That's it!
+4. To train the model you would need to run `train.py` file, add the datset folder path with it:
+	```
+	python train.py "dataset_path"
+	```
+
+5. To run a prediction on a flower image, run the `predict.py` file, add the image path and the model checkpoint file:
+	```
+	python .\predict.py "image_path" checkpoint.pth   
+	```
+
+6. That's it!
 
 

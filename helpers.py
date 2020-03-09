@@ -5,8 +5,10 @@ import torch
 def get_train_input_args():
     parser = argparse.ArgumentParser()
 
-    parser.add_argument('--dir', type = str, default = 'flowers', 
-                        help = 'Path to the folder of pet images') 
+    requiredNamed = parser.add_argument_group('required named arguments')
+
+    requiredNamed.add_argument('dataset_path', type = str, 
+                        help = 'Path to the dataset folder')
 
     parser.add_argument('--arch', type = str, default = 'vgg', 
                         help = 'Pretrained model name')
