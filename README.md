@@ -2,8 +2,12 @@
 
 Project code for Udacity's AI Programming with Python Nanodegree program. It is a project for developing code for an image classifier built with PyTorch, then convert it into a command line application.
 
+In this project, an image classifier was trained to recognize different species of flowers. 
+[This dataset](http://www.robots.ox.ac.uk/~vgg/data/flowers/102/index.html) of 102 flower categories was used to train the classifier.
+
+
 # Dependencies 
-## (These Installation instructions were copied from UDACITY's github page)
+(These Installation instructions were copied from UDACITY's github page)
 
 ## Configure and Manage Your Environment with Anaconda
 
@@ -61,8 +65,8 @@ If you'd like to learn more about version control and using `git` from the comma
 
 1. Clone the repository, and navigate to the downloaded folder. This may take a minute or two to clone due to the included image data.
 ```
-git clone https://github.com/udacity/deep-learning-v2-pytorch.git
-cd deep-learning-v2-pytorch
+git clone https://github.com/HashemSami/image_classifier_aipnd.git
+cd image_classifier_aipnd
 ```
 
 2. Create (and activate) a new environment, named `Image_classifier` with Python 3.6. If prompted to proceed with the install `(Proceed [y]/n)` type y.
@@ -92,3 +96,5 @@ cd deep-learning-v2-pytorch
 	```
 
 4. That's it!
+
+
